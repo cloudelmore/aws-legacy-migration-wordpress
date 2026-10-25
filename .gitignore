@@ -1,0 +1,18 @@
+# Terraform working files and state (state can contain sensitive values)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Variable files often hold IPs or secrets
+*.tfvars
+
+# Keys
+*.pem
+*.key
+# Database dumps contain password hashes and emails
+*.sql
+*.sql.gz
+
+# Raw, unedited screenshots
+screenshots-raw/
